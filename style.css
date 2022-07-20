@@ -67,6 +67,7 @@ main {
 }
 
 .btn {
+
     width: 24px;
     height: 24px;
     color: white;
@@ -76,6 +77,17 @@ main {
     bottom: -3.5%;
     background-color: red;
     border: 0;
+}
+
+.fa-angle-right:before {
+    content: "\f105";
+}
+
+/* .btn:hover, */
+
+
+.live:hover {
+    background-color: greenyellow;
 }
 
 .watch {
@@ -125,6 +137,8 @@ main {
     background: rgb(252, 3, 3);
     border-radius: 10px;
 }
+
+
 
 .watchs {
     margin-top: 0%;
@@ -193,11 +207,11 @@ main {
 /* player transfer */
 
 
-.transfer {
+/* .transfer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 
-}
+} */
 
 .ptrans {
     position: absolute;
