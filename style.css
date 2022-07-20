@@ -360,7 +360,7 @@ main {
     position: absolute;
     width: 1600px;
     height: 444px;
-    left: 55px;
+    left: 5px;
     top: 1430px;
     background: #000000;
 }
@@ -435,3 +435,45 @@ hr {
 .f {
     padding-left: 80px;
 }
+
+/* media quaries */
+/* mobile device */
+
+@media only screen and (max-width:688px) {
+    .container .menubar .footcont {
+        width: 100%;
+    }
+
+    .heading .image .menus .transfer .footer {
+        background-color: rgb(8, 8, 8);
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .headd .para .live .image .lives .livess .livesss .ptrans .ptranss .ptransss .ptranssss .ptransssss .ptranssssss .foot .contin {
+        flex-direction: column;
+    }
+
+    .lives .livess .livesss .ptrans .ptranss .ptransss .ptranssss .ptransssss .ptranssssss .foot .contin {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* tab */
+
+@media only screen and (max-width:992px) {
+    .container .menubar .footcont {
+        width: 100%;
+    }
+
+    .menus .transfer {
+        background-color: rgb(8, 8, 8);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .lives .livess .livesss .ptrans .ptranss .ptransss .ptranssss .ptransssss .ptranssssss {
+        flex-direction: column;
+    }
+
+    .lives .livess .livesss .ptrans .ptranss .ptransss .ptranssss .ptransssss .ptranssssss {
+        grid-template-columns: repeat(2, 1fr);
+    }
